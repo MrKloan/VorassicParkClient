@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Vorassic Park" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="Vorassic Park" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="Vorassic Park" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDL" />
+			<Add option="-lSDL_image" />
+			<Add option="-lSDL_ttf" />
+			<Add option="-lSDL_net" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL/SDL-devel-1.2.14-mingw32/SDL-1.2.14/lib" />
+		</Linker>
+		<Unit filename="IA.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="IA.h" />
+		<Unit filename="anim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="anim.h" />
+		<Unit filename="constantes.h" />
+		<Unit filename="freeProg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="freeProg.h" />
+		<Unit filename="gameParams.h" />
+		<Unit filename="loadMap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="loadMap.h" />
+		<Unit filename="loadSound.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="loadSound.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mapStruct.h" />
+		<Unit filename="mapping.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mapping.h" />
+		<Unit filename="menuLan.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menuLan.h" />
+		<Unit filename="menuP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menuP.h" />
+		<Unit filename="motor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="motor.h" />
+		<Unit filename="params.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="params.h" />
+		<Unit filename="pixel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pixel.h" />
+		<Unit filename="play.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="play.h" />
+		<Unit filename="present.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="present.h" />
+		<Unit filename="socket.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="socket.h" />
+		<Unit filename="sysvars.h" />
+		<Unit filename="tri.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tri.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
